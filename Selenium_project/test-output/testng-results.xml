@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM APPLICATION SUITE" duration-ms="14876" started-at="2021-03-04T23:01:05 IST" finished-at="2021-03-04T23:01:20 IST">
+    <groups>
+    </groups>
+    <test name="pending leave request testcase" duration-ms="10112" started-at="2021-03-04T23:01:05 IST" finished-at="2021-03-04T23:01:16 IST">
+      <class name="testCases.Test_Pending_Leave">
+        <test-method status="PASS" signature="getPendingText()[pri:0, instance:testCases.Test_Pending_Leave@71bbf57e]" name="getPendingText" duration-ms="10076" started-at="2021-03-04T23:01:05 IST" finished-at="2021-03-04T23:01:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPendingText -->
+      </class> <!-- testCases.Test_Pending_Leave -->
+    </test> <!-- pending leave request testcase -->
+    <test name="test user role testcase" duration-ms="4423" started-at="2021-03-04T23:01:16 IST" finished-at="2021-03-04T23:01:20 IST">
+      <class name="testCases.Test_User_Role">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testCases.Test_User_Role@2781e022]" name="launchBrowser" is-config="true" duration-ms="8942" started-at="2021-03-04T23:00:57 IST" finished-at="2021-03-04T23:01:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="checkuserManagement()[pri:0, instance:testCases.Test_User_Role@2781e022]" name="checkuserManagement" duration-ms="4416" started-at="2021-03-04T23:01:16 IST" finished-at="2021-03-04T23:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserManagement -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.Test_User_Role@2781e022]" name="closeBrowser" is-config="true" duration-ms="6615" started-at="2021-03-04T23:01:20 IST" finished-at="2021-03-04T23:01:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.Test_User_Role -->
+    </test> <!-- test user role testcase -->
+  </suite> <!-- HRM APPLICATION SUITE -->
+</testng-results>
